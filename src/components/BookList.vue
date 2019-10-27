@@ -33,7 +33,6 @@ export default {
       states: ["Want to Read", "Read", "Reading"],
       filters: ["bought", "borrowed"],
       holding: "bought",
-      searchInput: "",
       books: [
         {
           title: "Self-Reliance",
@@ -54,6 +53,7 @@ export default {
           ownership: "borrowed"
         }
       ],
+      searchInput: ""
       
     };
   },
